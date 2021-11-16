@@ -19,6 +19,7 @@
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.6.0",
     "sass": "^1.43.4",
+    "slick-carousel": "^1.8.1",
     "slick-slider": "^1.8.2"
   }
 }
