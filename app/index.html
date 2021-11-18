@@ -10,36 +10,141 @@
 <body>
 
 <header class="header">
-  <div class="container">
-    <div class="header__top">
-      <div class="header__top-inner">
-        <a href="" class="logo">
+      <div class="header__inner">
+        <a href="#" class="logo">
           <img class="logo__img" src="images/logo.png" alt="Логотип">
         </a>
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a  class="menu__item-link" href="#">Home</a>
-              <a  class="menu__item-link" href="#">About</a>
-              <a  class="menu__item-link" href="#">Services</a>
-              <a  class="menu__item-link" href="#">Pages</a>
-              <a  class="menu__item-link" href="#">News</a>
-              <a  class="menu__item-link" href="#">Contact</a>
+              <a  class="menu__item-link" href="#">Home+</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Services</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Pages+</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">News</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-link" href="#">Contact</a>
             </li>
           </ul>
         </nav>
-        <button class="search"><img src="" alt=""></button>
+        <button class="search"><img src="images/search.svg" alt=""></button>
         <div class="user-nav">
+          
           <a class="user-nav__favorites" href="#">
+            <img class="user-nav__favorites-img" src="images/favourites.png" alt="">
             <div class="user-nav__num">0</div>           
           </a>
-          <a class="user-nav__goods" href="#">0</a>
+          <a class="user-nav__goods" href="#">
+            <img class="user-nav__goods-img" src="images/bascet.png" alt="">
+            <div class="user-nav__num">0</div>
+          </a>
+         
         </div>
-        <button class="app"></button>
+         <button class="app"></button>
+      </div>
+</header>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__top-inner">
+        <div class="footer__top-item">
+          <a href="#" class="logo footer-logo">
+            <img class="logo__img" src="images/logo.png" alt="Логотип">
+          </a>
+          <ul class="footer__contact">
+            <li class="footer__contact-item">
+              ADDRESS: 4772 Wines Lane
+              Houston, TX 77032
+            </li>
+            <li class="footer__contact-item">
+              Telephone: +832-347-5843
+            </li>
+            <li class="footer__contact-item">
+              Email: contact@Glee.com
+            </li>
+          </ul>
+        </div>
+        <div class="footer__top-item">
+          <h6 class="footer__services-title">SERVICES</h6>
+          <ul class="footer__services-list">
+            <li class="footer__services-item">
+              <a class="footer__services-link" href="#">About us</a>
+            </li>
+            <li class="footer__services-item">
+              <a class="footer__services-link" href="#">Return Policy</a>
+            </li>
+            <li class="footer__services-item">
+              <a class="footer__services-link" href="#">Our Blog</a>
+            </li>
+            <li class="footer__services-item">
+              <a class="footer__services-link" href="#">Contact Us</a>
+            </li>
+            <li class="footer__services-item">
+              <a class="footer__services-link" href="#">Terms & Condition</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__top-item">
+          <h6 class="footer__account-title">ACCOUNT</h6>
+          <ul class="footer__account-list">
+            <li class="footer__services-item">
+              <a class="footer__account-link" href="#">Your account</a>
+            </li>
+            <li class="footer__services-item">
+              <a class="footer__account-link" href="#">Chekout</a>
+            </li>
+            <li class="footer__services-item">
+              <a class="footer__account-link" href="#">Login</a>
+            </li>
+            <li class="footer__services-item">
+              <a class="footer__account-link" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__top-item">
+          <h6 class="footer__newsletter-title">NEWSLETTER</h6>
+          <p class="footer__newsletter-text">
+            Subscribe by our newsletter and get
+            update protidin.
+          </p>
+          <form class="footer__top-form">
+            <input class="footer__top-input" type="text" placeholder="Email address">
+            <button class="footer__top-btn" type="submit">Subscribe</button>
+          </form>
+        </div>
       </div>
     </div>
+    <div class="footer__bottom">
+      <div class="footer__bottom-copy">©2020 CopyRight Example. All rights reserved.</div>
+      <nav class="footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__menu-item">
+            <a class="footer-nav__link" href="#">Home</a>
+          </li>
+          <li class="footer-nav__menu-item">
+            <a class="footer-nav__link" href="#">About</a>
+          </li>
+          <li class="footer-nav__menu-item">
+            <a class="footer-nav__link" href="#">Blog</a>
+          </li>
+          <li class="footer-nav__menu-item">
+            <a class="footer-nav__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
-</header>
+</footer>
 
 
 <script src="js/main.min.js"></script>
