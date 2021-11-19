@@ -7,12 +7,12 @@
 
 .header{
   padding: 40px 10px 40px 10px;
-  max-width: 1770px;
+  max-width: 1790px;
   margin: 0 auto;
   &__inner{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center
   }
 }
 
@@ -74,6 +74,7 @@
   border: none;
   border-radius: 50%;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .app{
@@ -94,7 +95,7 @@
   }
   &__top-inner{
     display: flex;
-   
+    justify-content: center;
   }
   &__top-item{
     width: 200px;
@@ -170,6 +171,7 @@
     background-color: #fef7f0;
     padding: 15px;
     @extend %dmsans-400;
+    outline: none;
   }
   .footer__top-btn{
     border: none;
@@ -209,6 +211,66 @@
   }
   
 }
+
+.top-slider__container{
+  max-width: 1790px;
+}
+
+.top-slider{
+  &__content{
+    max-width: 440px;
+  }
+  &__item{
+    display: flex !important;
+    justify-content: space-around;
+  }
+  &__inner{
+    padding-top: 220px;
+    padding-right: 50px;
+    padding-bottom: 47px;
+    background-color: $top-slider-bg;
+  }
+  &__item-title{
+    font-size: 72px;
+    color: #243f4d;
+    font-family: 'Rubik-Medium', sans-serif;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  &__item-subtitle{
+    font-size: 18px;
+    color: #436372;
+    @extend %rubick-400;
+    margin-bottom: 63px;
+  }
+  &__item-btn{
+    position: relative;
+    border: none;
+    background-color: $color-btn;
+    padding: 23px 100px 23px 29px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Rubik-Medium', sans-serif;
+    font-weight: 500;
+    margin-bottom: 205px;
+  }
+  &__item-btn-img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

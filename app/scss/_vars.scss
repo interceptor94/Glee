@@ -1,5 +1,12 @@
 $footer-color-text: #7b7b7b;
+$top-slider-bg: #fcd7b6;
+$color-btn: #a3bbc8;
 
+%background-img{
+  background-position: right center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
 
 %rubick-700{
   font-family: 'Rubik-Bold', sans-serif;
