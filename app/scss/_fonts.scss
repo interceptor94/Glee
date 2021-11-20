@@ -33,6 +33,7 @@
   src: local('DMSans-Bold'), 
        url('../fonts/DMSans-Bold.woff') format('woff');
 }
+
 @font-face {
   font-family: 'DMSans-Regular', sans-serif;
   font-weight: 400;
@@ -40,4 +41,12 @@
   font-display: swap;
   src: local('DMSans-Regular'), 
        url('../fonts/DMSans-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'DMSans-Medium', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: local('DMSans-Medium'), 
+       url('../fonts/DMSans-Medium') format('woff');
 }

@@ -1,6 +1,7 @@
 $footer-color-text: #7b7b7b;
 $top-slider-bg: #fcd7b6;
 $color-btn: #a3bbc8;
+$color-product-title: #243f4d;
 
 %background-img{
   background-position: right center;
@@ -23,6 +24,10 @@ $color-btn: #a3bbc8;
 %dmsans-700{
   font-family: 'DMSans-Bold', sans-serif;
   font-weight: 700;
+}
+%dmsans-500{
+  font-family: 'DMSans-Medium', sans-serif;
+  font-weight: 500;
 }
 %dmsans-400{
   font-family: 'DMSans-Regular', sans-serif;
