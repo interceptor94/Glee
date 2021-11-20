@@ -1,6 +1,15 @@
 @font-face {
-  font-family: 'Rubik-Medium', sans-serif;
+  font-family: 'Rubik-Bold', sans-serif;
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: local('Rubik-Medium'), 
+       url('../fonts/Rubik-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Rubik-Medium', sans-serif;
+  font-weight: 00;
   font-style: normal;
   font-display: swap;
   src: local('Rubik-Medium'), 

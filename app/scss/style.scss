@@ -212,9 +212,37 @@
   
 }
 
-.top-slider__container{
-  max-width: 1790px;
+.slick-list .slick-slide {
+  width: 1790px;
 }
+.slick-dots{
+  display: flex;
+  justify-content: center;
+  li{
+    button{
+      background-color: rgb(255, 255, 255);
+      opacity: 0.302;
+      border-radius: 50%;
+      border: none;
+      width: 30px;
+      height: 29px;
+      margin-right: 10px;
+      outline: none;
+      font-size: 11px;
+      color: #243f4d;
+      @extend %rubick-700;
+    }
+    &.slick-active{
+      button{
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+
+
 
 .top-slider{
   &__content{
@@ -226,7 +254,7 @@
   }
   &__inner{
     padding-top: 220px;
-    padding-right: 50px;
+    // padding-right: 50px;
     padding-bottom: 47px;
     background-color: $top-slider-bg;
   }
