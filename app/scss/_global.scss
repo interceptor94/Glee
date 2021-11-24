@@ -25,8 +25,27 @@
   margin: 0 auto;
 }
 
+  .title{
+    font-size: 36px;
+    color: #191919;
+    @extend %dmsans-700;
+    margin-bottom: 30px;
+  }
+  .filter{
+    margin-bottom: 75px;
+  }
 
-svg path {
-    
-    fill:#a3bbc8;
-    }
+  .filter-link{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #8b8b8b;
+    @extend %dmsans-700;
+    margin-right: 30px;
+  }
+  .filter-link:last-child{
+    margin-right: 0;
+  }
+  .filter-link--active{
+    color: #292929;
+  }

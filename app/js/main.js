@@ -4,10 +4,13 @@ $(function() {
     dots: true
   });
 
-  $(".product__main-link").click(function () {
-    $(".product__main-link").removeClass("product__main-link--active");
-    $(this).addClass("product__main-link--active");
+  $(".filter-link").click(function () {
+    $(".filter-link").removeClass("filter-link--active");
+    $(this).addClass("filter-link--active");
   });
 
   var mixer = mixitup('.product-items');
+  var mixer = mixitup('.design-items');
+
+
 });
