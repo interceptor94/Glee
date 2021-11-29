@@ -672,6 +672,34 @@
   }
 }
 
+.breadc{
+  padding-top: 7px;
+  &__list{
+    display: inline-flex;
+  }
+  &__item{
+    margin-right: 20px;
+    position: relative;
+    &::after{
+      position: absolute;
+      content: '/';
+      top: 1px;
+      right: -12px;
+    }
+    &:last-child{
+      margin-right: 0;
+      &::after{
+        content: none;
+      }
+    }
+  }
+  &__link{
+    font-size: 14px;
+    @extend %rubick-400;
+    color: #222933;
+  }
+}
+
 .form-box{
   max-width: 470px;
   margin: 0 auto;
@@ -679,6 +707,7 @@
     margin-bottom: 30px;
     label{
       font-size: 14px;
+      color: #436372;
     }
     &__input{
       display: block;
