@@ -743,7 +743,18 @@
         font-size: 14px;
       }
     }
-    
+    &__text-top{
+      margin-top: 37px;
+      margin-bottom: 35px;
+    }
+    &__text-bottom{
+      margin-bottom: 37px;
+    }
+    &__text-top,
+    &__text-bottom{
+      font-size: 14px;
+      color: #436372;
+    }  
   }
 }
 
