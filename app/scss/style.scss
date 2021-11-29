@@ -656,11 +656,100 @@
 }
 
 
+// PAGE LOGIN
+.login{
+  margin-bottom: 120px;
+  &-top{
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    background-color: #edf1f4;
+    text-align: center;
+    margin-bottom: 115px;
+    &__title{
+      font-size: 34px;
+      @extend %rubick-300;
+    }
+  }
+}
+
+.form-box{
+  max-width: 470px;
+  margin: 0 auto;
+  .form{
+    margin-bottom: 30px;
+    label{
+      font-size: 14px;
+    }
+    &__input{
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      height: 60px;
+      background-color: transparent;
+      border: 2px solid #f6f6f6;
+      margin-top: 13px;
+      margin-bottom: 5px;
+    }
+    &__btn{
+      display: block;
+      width: 100%;
+      height: 60px;
+      border: none;
+      background-color: #a3bbc8;
+      font-size: 18px;
+      color: #fff;
+      @extend %rubick-700;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+    &-bottom{
+      display: flex;
+      justify-content: space-between;
+      label{
+        font-size: 14px;
+        color: #436372;
+      }
+      &__lost-pass{
+        color: #436372;
+        font-size: 14px;
+      }
+    }
+    
+  }
+}
 
 
 
-
-
+.create-account{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: 1px solid #f6f6f6;
+  text-align: center;
+  &__link{
+     font-size: 14px;
+     color: #436372;
+     @extend %rubick-400;
+     margin-bottom: 30px;
+     margin-top: 30px;
+  }
+  &__btn{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid $color-btn;
+    font-size: 18px;
+    color: #243f4d;
+    @extend %rubick-500;
+  }
+}
+.login-partner{
+  padding-top: 79px;
+}
 
 
 
