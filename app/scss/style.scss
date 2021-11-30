@@ -658,7 +658,7 @@
 
 // PAGE LOGIN
 .login{
-  margin-bottom: 120px;
+  
   &-top{
     padding-top: 30px;
     padding-bottom: 30px; 
@@ -790,6 +790,240 @@
 .login-partner{
   padding-top: 79px;
 }
+// PAGE ABOUT
+
+.title-blog{
+  display: flex;
+  &__content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  &__year{
+    margin-bottom: 35px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    span{
+      float: left;
+      font-size: 140px;
+      @extend %rubick-800;
+      color: #a3bbc8;
+    }
+    &-text{
+      max-width: 100px;
+      line-height: 25px;
+      margin-left: 25px;
+      font-size: 16px;
+      color: #243f4d;
+      @extend %rubick-400;
+    }
+  }
+  &__title{
+    font-size: 36px;
+    @extend %dmsans-700;
+    color: #243f4d;
+    margin-bottom: 45px;
+  }
+  &__text{
+    font-size: 16px;
+    color: #243f4d;
+    @extend %rubick-400;
+    line-height: 28px;
+    margin-bottom: 60px;
+    max-width: 555px;
+  }
+  .title-blog__items{
+    border-top: 2px solid #ebeef3;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    &-item{
+      display: flex;
+      position: relative;
+      &-text{
+        max-width: 100px;
+        font-size: 16px;
+        @extend %dmsans-700;
+        color: #4c4c4c;;
+        span{
+          font-size: 36px;
+          color: #243f4d;
+          @extend %dmsans-700;
+        }
+      }
+      &:last-child{
+        &::after{
+          content: none;
+        }
+      }
+      &::after{
+        content: '';
+        position: absolute;
+        right: -25px;
+        top: -15px;
+        width: 1px;
+        height: 80px;
+        background-color: #e6eaf0;
+      }
+    }
+  }
+}
+
+// SERVICES
+.services{
+  padding-top: 95px;
+  padding-bottom: 80px;
+  background-color: #fcd7b6;
+  margin-top: 117px;
+  &-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__img{
+      margin-bottom: 10px;
+    }
+    &__item{
+      position: relative;
+      text-align: center;
+      &::after{
+        content: '';
+        position: absolute;
+        top: 21px;
+        right: 50px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: rgb(163, 187, 200, .8);
+      }
+      p{
+        font-size: 18px;
+        color: #243f4d;
+        @extend %dmsans-700;
+        span{
+          line-height: 60px;
+          padding-top: 22px;
+          font-size: 36px;
+          color: #243f4d;
+          @extend %dmsans-700;
+        }
+      }
+      
+    }
+  }
+}
+// TEAM
+.team{
+  padding-top: 125px;
+  &-inner{
+    display: flex;
+  }
+  &__content{
+    max-width: 310px;
+    margin-right: 100px;
+    &-title{
+      font-size: 36px;
+      color: #243f4d;
+      @extend %dmsans-700;
+      margin-bottom: 30px;
+    }
+    &-text{
+      font-size: 16px;
+      color: #243f4d;
+      @extend %rubick-400;
+      line-height: 28px;
+      margin-bottom: 40px;
+    }
+    &-btn{
+      position: relative;
+      border: none;
+      font-size: 15px;
+      @extend %rubick-700;
+      color: #fff;
+      background-color: #a3bbc8;
+      padding: 16px 50px 16px 16px;
+      border-radius: 5px;
+      &::after{
+        content: '';
+        position: absolute;
+        top: 20px;
+        right: 26px;
+        width: 15px;
+        height: 11px;
+        background-image: url('../images/about/icon/line-btn.svg');
+      }
+    }
+  }
+}
+.team-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  &__person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 325px;
+    height: 110px;
+    background-color: #fff;
+    box-shadow: 0px 6px 57px 0px rgba(37, 37, 37, 0.05);
+    margin-top: -60px;
+    position: relative;
+    &-box{
+      margin-left: 25px;
+    }
+    &-name{
+      font-size: 22px;
+      color: #436372;
+      @extend %dmsans-700;
+      margin-bottom: 5px;
+    }
+    &-position{
+      font-size: 16px;
+      color: #565872;
+      @extend %rubick-400;
+    }
+    &-social-list{
+      display: flex;
+    }
+    &-social-item{
+      margin-right: 7px;
+      &:last-child{
+        margin-right: 14px;
+      }
+    }
+    &-social-link{
+      display: flex;
+      justify-content: center;
+      width: 41px;
+      height: 41px;
+      background-color: #f6f6f6;
+      border-radius: 50%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
