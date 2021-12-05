@@ -1,4 +1,10 @@
 $(function() {
+
+
+
+
+
+
   $(".star").rateYo({
     starWidth: "13px",
     normalFill: "#d6d6d6",
