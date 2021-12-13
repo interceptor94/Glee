@@ -1419,10 +1419,119 @@
   margin-left: 0px;
 }
 
+// CONTACT
+.touch{
+  &__title{
+    color: #436372;
+    @extend %dmsans-700;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 72px;
+    span{
+      font-size: 16px;
+      @extend %rubick-700;
+      color: #a3bbc8;
+      margin-bottom: 17px;
+    }
+  }
+  &__items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  &__item{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 380px;
+    background-color: #fbfbfb;
+    
+    margin-right: 30px;
+    &:last-child{
+      margin-right: 0;
+    }
+    &:hover{
+      border: 1px solid #a3bbc8;
+    }
+    svg{
+      margin-bottom: 60px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 20px;
+      
+    }
+    &-title{
+      font-size: 20px;
+      color: #222222;
+      @extend %dmsans-700;
+      margin-bottom: 27px;
+    }
+    &-text{
+      font-size: 16px;
+      color: #565872;
+      @extend %rubick-400;
+      line-height: 24px;
+    }
+  }
+  .touch__item:hover svg{
+      background-color: #a3bbc8;
+      path{
+        fill: #fff;
+      }
+      }
+}
 
+.contact-bottom{
+  display: flex;
+  justify-content: space-between;
+}
 
-
-
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  &__input{
+    max-width: 633px;
+    input{
+      width: 290px;
+      height: 50px;
+      background-color: #fafafa;
+      border: none;
+      margin-bottom: 25px;
+      padding-left: 10px;
+      padding-right: 4px;
+      outline: none;
+    }
+  }
+  textarea{
+    outline: none;
+    max-width: 602px;
+    border: none;
+    background-color: #fafafa;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+  }
+  &__text{
+    max-width: 622px;
+  }
+  &__btn{
+    max-width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #a3bbc8;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    @extend %rubick-700;
+  }
+}
 
 
 
