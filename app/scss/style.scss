@@ -1278,6 +1278,33 @@
   }
   &__content{
     width: 570px;
+    &-title{
+      font-size: 40px;
+      color: #333333;
+      margin-bottom: 23px;
+    }
+      &-text{
+        font-size: 16px;
+        color: #243f4d;
+        margin-bottom: 30px;
+      }
+      &-btn{
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        background-color: #a3bbc8;
+        text-transform: uppercase;
+        color: #fff;
+      }
+  .star{
+    margin-bottom: 30px;
+  }
+  .product-one__num{
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 40px;
+  }
   }
   &__slider{
     display: flex;
@@ -1292,6 +1319,7 @@
     width: 138px;
     height: 160px;
     border: 1px solid #f2f2f2;
+    margin-bottom: 10px;
     img{
       width: 138px;
       height: 160px;
@@ -1299,6 +1327,7 @@
     }
     &__big-item{
       width: 390px;
+      height: 530px;
       object-fit: cover;
 
       img{
@@ -1711,7 +1740,71 @@
     margin-bottom: 60px;
 }
 
+.product__main{
+  align-items: flex-start;
+  margin-top: 100px;
+}
 
+.product-tabs{
+  height: 136px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  &__top{
+    margin-bottom: 37px;
+    &-item{
+      margin-right: 17px;
+      padding: 10px 20px 10px 20px;
+      color: #243f4d;
+      background-color: #edf1f4;
+      border-radius: 5px;
+    }
+  }
+  &__top-item--active{
+    background-color: #a3bbc8;
+    color: #fff;
+  }
+}
+.product-tabs__content-item{
+  color: #243f4d;
+  font-size: 16px;
+  line-height: 22px;
+  display: none;
+  &.product-tabs__content-item--active{
+    display: block;
+  }
+}
+
+.slider-product__inner{
+  display: block;
+  
+}
+.slider-product__title{
+  margin-bottom: 70px;
+  position: relative;
+  font-size: 36px;
+  color: #243f4d;
+}
+
+
+
+.slick-slider button{
+  border: 2px solid #a3bbc8;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -100px;
+  right: 0;
+}
+
+.slick-prev{
+  margin-right: 80px
+}
+
+.slider-item{
+  display: block;
+}
 
 
 
