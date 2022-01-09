@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/blog.min.css">
+  <title>Glee</title>
+</head>
+
+<body>
+  <div class="wrapper">
+ {% include 'app/module/_header/_header.html' %}
+    <div class="main">
+         {% include 'app/module/_login-top/_login-top.html' %}
+         {% include 'app/module/_posts/_posts.html' %}
+         {% include 'app/module/_partner/_partner.html' %}
+         
+    </div>
+     {% include 'app/module/_footer/_footer.html' %}
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
