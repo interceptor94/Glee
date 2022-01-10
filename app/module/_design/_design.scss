@@ -1,0 +1,42 @@
+// NEW DESIGN
+
+.design{
+    margin-bottom: 125px;
+    &__main{
+      text-align: center;
+    }
+    &-items{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 30px;
+      grid-column-gap: 30px;
+    }
+    &-items__item{
+      max-width: 330px;
+      height: 205px;
+      background-color: #f8f8f8;
+      padding: 40px 0 0 40px;
+      overflow: hidden;
+      position: relative;
+    }
+    &-items__item-img{
+      position: absolute;
+      bottom: 35px;
+      left: 140px;
+    }
+    &-items__item .item-img{
+      left: 198px;
+    }
+    &-items__item-title{
+      max-width: 180px;
+      font-size: 20px;
+      @extend %dmsans-700;
+      color: $color-design-title;
+      margin-bottom: 15px;
+    }
+    &-items__item-link{
+      font-size: 16px;
+      @extend %dmsans-700;
+      color: $color-btn;
+    }
+  }
