@@ -1,0 +1,26 @@
+// PAGE TERMS
+.terms{
+    &__title{
+      font-size: 24px;
+      @extend %rubick-500;
+      color: #243f4d;
+      margin-top: 70px;
+      margin-bottom: 30px; 
+    }
+  }
+  .terms-types{
+    &__list{
+      margin-left: 26px;
+      li{
+        list-style-type: decimal-leading-zero;
+        margin-bottom: 25px;
+      }
+    }
+    &__item{
+      font-size: 16px;
+      @extend %rubick-400;
+      color: #243f4d;
+      line-height: 21px;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+.header{
+    padding: 40px 10px 40px 10px;
+    max-width: 1790px;
+    margin: 0 auto;
+    &__inner{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
+  .menu{
+    margin-left: auto;
+    &__list{
+      display: flex;
+    }
+    &__item + .menu__item{
+      margin-left: 30px;
+    }
+    &__item-link{
+      @extend %rubick-700;
+      font-size: 15px;
+      font-weight: 700;
+      color: #436372;
+    }
+  }
+  
+  .user-nav{
+    display: flex;
+    justify-content: center;
+    min-width: 180px;
+    background-color: #fcd7b6;
+    padding: 20px 0 12px 0;
+    border-radius: 50px;
+    &__favorites{
+      position: relative;
+      margin-right: 40px;
+    }
+    &__favorites::after{
+      content: '';
+      position: absolute;
+      top: -8px;
+      right: -20px;
+      width: 1px;
+      height: 30px;
+      background-color: #fff;
+    }
+    &__goods{
+      position: relative;
+    }
+    &__num{
+      position: absolute;
+      top: -10px;
+      left: 11px;
+      background-color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      width: 18px;
+      height: 18px;
+      line-height: 18px;
+    }
+  }
+  
+  .search{
+    margin-left: auto;
+    padding: 17px 19px 17px 18px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .app{
+    width: 50px;
+    height: 50px;
+    background-color: #a3bbc8;
+    border: none;
+    border-radius: 50%;
+    margin-left: 20px;
+  }

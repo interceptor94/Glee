@@ -1,0 +1,17 @@
+// PARTNERS
+.partner{
+    padding-top: 260px;
+    padding-bottom: 87px;
+    background-color: #fef7f0;
+    
+    &-items-img{
+      display: block;    
+    }
+    &-items{
+      padding-left: 100px;
+      padding-right: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }

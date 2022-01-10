@@ -1,0 +1,51 @@
+// services
+.services{
+  
+    &__inner{
+      display: flex;
+      justify-content: space-between;
+      height: 170px;
+      background-color: #fef7f0;
+    }
+    &__item{
+      display: flex;
+      justify-content: center;
+      width: 570px;
+      align-items: center;
+      border-right: 2px solid #e8e4df;
+    }
+    &__item:last-child{
+      border-right: none;
+    }
+    &__item-img{
+      position: relative;
+    }
+    &__item-img::after{
+      content: '';
+      position: absolute;
+      right: -7px;
+      bottom: -4px;
+      border-radius: 50%;
+      background-color: rgb(163, 187, 200);
+      opacity: 0.341;
+      width: 21px;
+      height: 20px;
+    }
+    &__item-content{
+      width: 205px;
+      margin-left: 25px;
+    }
+    &__item-content-title{
+      font-size: 18px;
+      line-height: 27px;
+      color: #414141;
+      @extend %dmsans-700;
+      margin-bottom: 4px;
+    }
+    &__item-content-subtitle{
+      font-size: 16px;
+      color: #585858;
+      @extend %dmsans-400;
+    }
+  }
+  
